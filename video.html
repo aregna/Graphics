@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dark, Full of Stars</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+		<script src="js/three.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/shaders/ConvolutionShader.js"></script>
+		<script src="js/shaders/CopyShader.js"></script>
+		<script src="js/postprocessing/EffectComposer.js"></script>
+		<script src="js/postprocessing/RenderPass.js"></script>
+		<script src="js/postprocessing/MaskPass.js"></script>
+		<script src="js/postprocessing/BloomPass.js"></script>
+		<script src="js/postprocessing/ShaderPass.js"></script>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+		<link href='video.css' rel='stylesheet'>
+	</head>
+
+	<body>
+	<div id="container"></div>
+	 <video id="video" oncanplay="this.muted=true" crossOrigin="anonymous" style="display:none">
+			<source src="videos/DarkFullofStars_Exposure.mp4">
+	 </video>
+
+	 <div id="songName" class="ml13">Dark Full of Stars</div>
+	 <div id="artistName" class="ml13 subtext">Volvo Physics</div>
+	 <div id="thanks" class="title" style="display:none">Thanks for watching</div>
+
+	 <!-- ADJUST ALL LINKS BELOW -->
+	 <i id="fb" class="fa fa-facebook" style="font-size:24px; display:none"></i>
+	 <i id="tw" class="fa fa-twitter" style="font-size:24px; display:none"></i>
+	 <a id="startOver" href="video.html" style="display:none"><button class="button start">Start over</button></a>
+	 <a id="moreMusic" href="video.html" style="display:none"><button class="button music">More music</button></a>
+	 <a id="moreProjects" href="https://aregna.github.io" style="display:none"><button class="button tech">The project</button></a>
+
+	 <script src="video.js"></script>
+
+
+	</body>
+</html>

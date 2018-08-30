@@ -1,0 +1,131 @@
+
+  body {
+    margin: 0;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: linear-gradient(#000000, #87CEEB);
+    top: 0;
+    left: 0;
+    z-index: -9999;
+  }
+
+  .title{
+    text-align:center;
+    font-family: 'Cabin Sketch';
+    display: block;
+    font-size: 50px;
+    color:#ECF0F1;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top:35%;
+    left:25%;
+    text-decoration: none;
+  }
+
+  .button {
+    background-color: transparent;
+    border: none;
+    padding: 16px 32px;
+    font-family: 'Special Elite';
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .start {
+      position: absolute;
+      top: 48%;
+      left: 45%;
+      color: white;
+      border: 1.5px solid #e7e7e7;
+  }
+
+  .start:hover {
+    background-color: #e7e7e7;
+  }
+
+  a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+
+  a:hover{
+    color: #ECF0F1;
+  }
+
+  .subtitle{
+    text-align:center;
+    font-family: 'Special Elite';
+    display: block;
+    font-size: 16px;
+    color:#ECF0F1;
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  .fa {
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .fa-headphones {
+    color: #ffffff;
+    background: #A9A9A9;
+    padding: 6px;
+    position: absolute;
+    top:63.5%;
+    left:40%;
+  }
+
+  .headphones{
+    font-size: 18px;
+    position: absolute;
+    top:65%;
+    left:27%;
+  }
+
+  .coder{
+    position: absolute;
+    top:82%;
+    left:25%;
+  }
+
+  .music{
+    position: absolute;
+    top:86%;
+    left:25%;
+  }
+
+  .instructions{
+    position: absolute;
+    top:70%;
+    left:25%;
+    font-size: 14px;
+  }
+
+  .navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+
+  .navbar a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
