@@ -22,19 +22,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
-		
 		<link rel="stylesheet" media="screen and (min-width: 601px)" href="video_desktop.css" />
 		<link rel="stylesheet" media="screen and (max-width: 600px)" href="video_mobile.css" />
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125036524-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-125036524-1');
-		</script>
 	</head>
 
 	<body>
@@ -57,10 +46,10 @@
 		 <span id="linkToCopy" style="font-size: 12px; font-family:'Open Sans';">https://aregna.github.io/darkfullofstars</span>
 	 </i>
 
-	 <!-- THREE BUTTONS -->
-	 <a id="startOver" href="video.html" style="display:none"><button class="button start">Start over</button></a>
-	 <a id="moreMusic" href="https://open.spotify.com/artist/7tbQnRkVWm3CuxuXb67SI0?si=SsoJDctNQX64MvkwSx3Ijw" style="display:none"  target="_blank"><button class="button music">More music</button></a>
-	 <a id="moreProjects" href="https://aregna.github.io/dfos.html" style="display:none"><button class="button tech">The project</button></a>
+	 <!-- THREE BUTTONS --->
+	 <button class="button start" id="startOver" onclick="location.href='video.html'" target="_blank" style="display:none;">Start over</button>
+	 <button class="button music" id="moreMusic" onclick="location.href='https://open.spotify.com/artist/7tbQnRkVWm3CuxuXb67SI0?si=SsoJDctNQX64MvkwSx3Ijw'" target="_blank" style="display:none;">More music</button>
+	 <button class="button tech" id="moreProjects" onclick="location.href='https://aregna.github.io/dfos.html'" target="_blank" style="display:none;">The project</button>
 
 	 <script src="video.js"></script>
 	</body>
