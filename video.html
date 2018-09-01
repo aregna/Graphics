@@ -16,7 +16,6 @@
 		<script src="js/postprocessing/BloomPass.js"></script>
 		<script src="js/postprocessing/ShaderPass.js"></script>
 
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
@@ -24,6 +23,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
 		<link href='video.css' rel='stylesheet'>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125036524-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-125036524-1');
+		</script>
 	</head>
 
 	<body>
@@ -36,15 +45,21 @@
 	 <div id="artistName" class="ml13 subtext">Volvo Physics</div>
 	 <div id="thanks" class="title" style="display:none">Thanks for watching</div>
 
-	 <!-- ADJUST ALL LINKS BELOW -->
-	 <i id="fb" class="fa fa-facebook" style="font-size:24px; display:none"></i>
-	 <i id="tw" class="fa fa-twitter" style="font-size:24px; display:none"></i>
+	 <!-- SHARE LINKS -->
+	 <div class="share" id="share" style="display:none;">Share</div>
+	 <button class="fa fa-facebook" id="fb" style="font-size:16px;display:none;" alt="Share on Facebook"
+	 				 onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('https://aregna.github.io/darkfullofstars'),'facebook-share-dialog','width=626,height=436'); return false;">
+	 </button>
+
+	 <i class="fa fa-link" id="li" style="font-size:16px; display:none;">
+		 <span id="linkToCopy" style="font-size: 12px; font-family:'Open Sans';">https://aregna.github.io/darkfullofstars</span>
+	 </i>
+
+	 <!-- THREE BUTTONS -->
 	 <a id="startOver" href="video.html" style="display:none"><button class="button start">Start over</button></a>
-	 <a id="moreMusic" href="video.html" style="display:none"><button class="button music">More music</button></a>
-	 <a id="moreProjects" href="https://aregna.github.io" style="display:none"><button class="button tech">The project</button></a>
+	 <a id="moreMusic" href="https://open.spotify.com/artist/7tbQnRkVWm3CuxuXb67SI0?si=SsoJDctNQX64MvkwSx3Ijw" style="display:none"  target="_blank"><button class="button music">More music</button></a>
+	 <a id="moreProjects" href="https://aregna.github.io/dfos.html" style="display:none"><button class="button tech">The project</button></a>
 
 	 <script src="video.js"></script>
-
-
 	</body>
 </html>
