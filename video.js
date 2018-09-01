@@ -343,7 +343,8 @@
    function createEnd(){
      document.getElementById("thanks").style.display = "block";
      document.getElementById("fb").style.display = "block";
-     document.getElementById("tw").style.display = "block";
+     document.getElementById("li").style.display = "block";
+     document.getElementById("share").style.display = "block";
      document.getElementById("startOver").style.display = "block";
      document.getElementById("moreMusic").style.display = "block";
      document.getElementById("moreProjects").style.display = "block";
@@ -511,7 +512,6 @@
           scene.remove(camera);
           scene.remove(vidStruc);
           scene.add(camera);
-
         }
         createEnd();
         break;
