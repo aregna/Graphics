@@ -38,7 +38,7 @@
     font-family: 'Special Elite';
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
@@ -91,7 +91,7 @@
   .share {
     position: absolute;
     top: 430px;
-    left: 45%;
+    left: 40%;
     font-family: 'Special Elite';
     font-size: 16px;
     color: white;
@@ -104,20 +104,22 @@
     padding-bottom:8px;
     padding-right:12px;
     padding-left:12px;
-    position: absolute;
-    top:450px;
-    left:40%;
+    position: relative;
+    top:440px;
+    left:45%;
     border: none;
+    display:inline-block;
     cursor:pointer;
   }
 
   .fa-link {
     color: #ffffff;
     padding: 9px;
-    position: absolute;
+    position: relative;
     top:450px;
-    left:55%;
+    left:45%;
     border: none;
+    display:inline-block;
     cursor:pointer;
   }
 
