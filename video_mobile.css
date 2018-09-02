@@ -7,7 +7,7 @@
   }
 
   .ml13 {
-    font-size: 1.4em;
+    font-size: 5vw;
     text-transform: uppercase;
     letter-spacing: 0.5em;
     font-family: Cabin Sketch;
@@ -106,7 +106,7 @@
     padding-left:12px;
     position: relative;
     top:440px;
-    left:45%;
+    left:43%;
     border: none;
     display:inline-block;
     cursor:pointer;
@@ -117,7 +117,7 @@
     padding: 9px;
     position: relative;
     top:450px;
-    left:45%;
+    left:43%;
     border: none;
     display:inline-block;
     cursor:pointer;
@@ -140,7 +140,7 @@
     text-align:center;
     font-family: 'Cabin Sketch';
     display: block;
-    font-size: 24px;
+    font-size: 4vw;
     color:#ECF0F1;
     width: 100%;
     margin: auto;
